@@ -1,23 +1,13 @@
-# compliantcontacts
-A Contact List
-
-# Overview
-
-Provides functions to create and maintain a contact list
-# Installation
-
-Provide the following scrpits in HTML files
-
-```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
 <script src="//philipmjohnson.github.io/ics314f15/morea/underscore/underscore-min.js"></script>
 <script src="contacts.js"></script>
-```
 
-#Usage
-
-Here are example calls:
-
-```
+<script>
     // Create a contact list.
     var contactList = new ContactList();
 
@@ -43,10 +33,8 @@ Here are example calls:
     console.log(contactList.findContact("Casanova")); //  print the henri Contact instance.
     contactList.deleteContact("Philip", "Johnson"); //  delete philip's Contact instance.
     console.log(contactList.listContacts()); //  string containing contacts in sorted order by last name.
-```
+</script>
+<body>
 
-Consult contacts.js file for more details
-
-#Credits
-
-Uses the [Underscore] (http://underscorejs.org/) library
+</body>
+</html>
